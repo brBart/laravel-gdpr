@@ -2,7 +2,7 @@
 
 namespace Soved\Laravel\Gdpr\Events;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Queue\SerializesModels;
 
 class GdprInactiveUserDeleted
