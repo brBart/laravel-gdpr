@@ -2,7 +2,7 @@
 
 namespace Soved\Laravel\Gdpr\Console\Commands;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Console\Command;
 use Soved\Laravel\Gdpr\Jobs\Cleanup\CleanupJob;
 
